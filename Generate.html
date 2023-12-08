@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Affordable and proffessional web Design">
+    <meta name="keywords" content="Web Design, affordable web design, proffessional">
+    <meta name="author" content="Samuel">
+    <title>Generate | About</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1> <span class="highlight">Password Validation</span> And generation</h1>
+
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li class="current"><a href="services.html">Services</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="newBody">
+        <div class="gen">
+            <h2>Password Generator</h2>
+            <div class="result-container">
+                <span id="result"></span>
+                <button class="btn" id="clipboard">
+                    <i class="far fa-clipboard"></i>
+                </button>
+            </div>
+            <div class="settings">
+                <div class="setting">
+                    <label>Password length</label>
+                    <input type="number" id="length" min='4' max='50' value='12' />
+                </div>
+                <div class="setting">
+                    <label>Include uppercase letters</label>
+                    <input type="checkbox" id="uppercase" checked />
+                </div>
+                <div class="setting">
+                    <label>Include lowercase letters</label>
+                    <input type="checkbox" id="lowercase" checked />
+                </div>
+                <div class="setting">
+                    <label>Include numbers</label>
+                    <input type="checkbox" id="numbers" checked />
+                </div>
+                <div class="setting">
+                    <label>Include symbols</label>
+                    <input type="checkbox" id="symbols" checked />
+                </div>
+            </div>
+            <button class="btn btn-large" id="generate">
+                Generate password
+            </button>
+        </div>
+
+
+
+
+
+
+
+
+
+        <!-- SOCIAL PANEL HTML -->
+        <div class="social-panel-container">
+            <div class="social-panel">
+                <p>Created with <i class="fa fa-heart"></i> by
+                    <a target="_blank" href="https://florin-pop.com">Florin Pop</a>
+                </p>
+                <button class="close-btn"><i class="fas fa-times"></i></button>
+                <h4>Get in touch on</h4>
+                <ul>
+                    <li>
+                        <a href="https://www.patreon.com/florinpop17" target="_blank">
+                            <i class="fab fa-discord"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/florinpop1705" target="_blank">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://linkedin.com/in/florinpop17" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://facebook.com/florinpop17" target="_blank">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://instagram.com/florinpop17" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>Password Validation and generation, Copyright &copy; 2023</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

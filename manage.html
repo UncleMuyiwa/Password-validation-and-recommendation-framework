@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Your Personal Password Manager</title>
+    <link rel="stylesheet" href="manage.css">
+</head>
+
+<body>
+    <nav>
+        <div class="logo">Password Manager</div>
+        <ul>
+            <li class="current"><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="login.html">Log out</a></li>
+        </ul>
+        <!-- <ul>
+            <li> <a href="index.html"></a> Home</li>
+            <li> <a href="about.html"></a> About</li>
+            <li> <a href="services.html"></a> Recommendations</li>
+        </ul> -->
+    </nav>
+    <div class="container">
+        <h1>Password Manager</h1>
+        <p>Hi!!, My name is Samuel and I am delighted to have you here. <I></I> understand how difficult it may be to
+            manage all of your passwords in
+            your digital life. That is why I am here to assist you.</p>
+        <h2>Your Passwords <span id="alert">(Copied!)</span></h2>
+        <table>
+            <tr>
+                <th>Website</th>
+                <th>Username</th>
+                <th>Password</th>
+                <th>Delete</th>
+            </tr>
+
+        </table>
+
+        <h2>Add a Password</h2>
+        <form action="/submit" method="post">
+
+            <!-- Text input for website -->
+            <label for="website">Website:</label>
+            <input type="text" id="website" name="website" required>
+            <br><br>
+
+            <!-- Text input for username -->
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <br><br>
+
+            <!-- Password input -->
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <br>
+            <!-- Submit button -->
+            <button class="btn" type="submit">Submit</button>
+        </form>
+    </div>
+    <script src="manage.js"></script>
+</body>
+
+</html>
